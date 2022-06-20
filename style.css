@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+}
+
+.conteiner {
+  background: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+
+.perfil {
+  /* background: pink; */
+  display: flex;
+  gap: 3em;
+}
+
+.perfil .nome {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.perfil .username {
+  font-weight: 500;
+}
+
+.status {
+  /* background: coral; */
+  display: flex;
+  gap: 3em;
+  margin-top: 2em;
+}
+
+.btn {
+  align-self: flex-start;
+  background: #0f0e0e;
+  border-radius: 3px;
+  color: #b7b7b7;
+  font-size: 0.85em;
+  padding: 0.3em;
+}
+
+.card {
+  background: red;
+  border-radius: 5px;
+  width: 180px;
+  height: 100px;
+}
+
